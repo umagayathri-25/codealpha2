@@ -1,0 +1,79 @@
+input[type="submit"]{
+    background-color: #007bff;
+    border:#fff;
+    border: none;
+    padding: 10px;
+}
+label{
+    font-size:18px;
+}
+label:hover{
+    color:red;
+}
+#Firstname:hover{
+    background-color: aqua;
+    border-color: rgb(103, 18, 82);
+}
+#Lastname:hover{
+    background-color: aqua;
+    border-color: rgb(103, 18, 82);
+}
+#Phoneno:hover{
+    background-color: aqua;
+    border-color: rgb(103, 18, 82);
+}
+#EmailId:hover{
+    background-color: aqua;
+    border-color: rgb(103, 18, 82);
+}
+#EmailId{
+    margin: auto;
+    width:400px;
+    height: 50px;
+    border:1px solid silver;
+
+}
+h1{
+    color:purple;
+}
+#Password:hover{
+    background-color: aqua;
+    border-color: rgb(103, 18, 82);
+}
+#button:hover{
+background-color: red;
+}
+#Phoneno{
+    margin: auto;
+    width:400px;
+    height: 50px;
+    border:1px solid silver;
+}
+#Firstname{
+    margin: auto;
+    width:400px;
+    height: 50px;
+    border:1px solid silver;
+}
+#Lastname{
+    margin: auto;
+    width:400px;
+    height: 50px;
+    border:1px solid silver;
+
+}
+#Password{
+    margin: auto;
+   width:400px;
+   height: 50px;
+   border:1px solid silver;
+    
+
+}
+.filed{
+    width:300px;
+    margin: 0 auto;
+    padding:20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}

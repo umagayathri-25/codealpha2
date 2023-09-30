@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link href="register.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <style>
+        #t1{
+            margin-top: 15px;
+            background-color:aqua;
+
+        }
+        #s1{
+            margin-top: 15px;
+            background-color:aqua;
+        }
+        #t1:hover{
+            background-color:red;
+
+        }
+        #s1:hover{
+            background-color:red;
+        }
+    </style>
+    <form id="myform" onsubmit="return validateForm" action="additional.html" method="post">
+        <center>
+                <div class="image-container">
+                    <img class="image1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpTD7-bhEaXicDTWrHO0B6KK9GkQ9RoQFaTMCs6_HhGvo1eYNbJFXM4WdtfrjqRvxwJPY&usqp=CAU" width="160px" height="120px">
+                <h1>Job Oriented Training Program<h5>We will help you bring out the best in you...!!</h5></h1><br>
+                <h1>Registration Page</h1>
+        <div class="field">
+    <label for="Firstname">Firstname:</label>
+     <input type="text" id="Firstname" name="fname" placeholder="please enter Firstname" required><br><br>
+     <label for="Lastname">Lastname:</label>
+    <input type="text" id="Lastname"name="lanme" placeholder="please enter Lastname" required><br><br>
+    <label for="Phoneno">Phoneno:</label>
+    <input type="tel" id="Phoneno"  name="pno" placeholder="enter your number" required><br><br>
+    <label for="EmailId">EmailId:</label>
+    <input type="email" id="EmailId" name="email"placeholder="please enter email-Id" required><br><br>
+    <label for="Password">Password:</label>
+    <input type="password" id="Password" name="passw"placeholder="please enter Password" required><br><br>
+    </div>
+    <input type="submit" id="button" value="Submit">
+        </center>
+</form>
+<div id="error-message" style="color:red";></div>
+        <center> 
+            <p>Click Here To Continue</p>
+            <form>
+                <button type="button" onclick="goBack()" id="t1">Back</button>
+                <button type="button" onclick="continueForm()" id="s1">Continue</button>
+            </center>
+            
+            <script>
+            function goBack() {
+                window.location.href="first.html";
+            
+            }
+            
+            function continueForm() {
+               window.location.href="succes.html";
+            }
+            </script>
+</body>
+</html>
